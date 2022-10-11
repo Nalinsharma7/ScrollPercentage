@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+h1{
+    color: skyblue;
+    font-size: 15vmin;
+    text-align: center;
+    padding: 30px 0;
+    
+}
+
+p{
+    font-size: 3vmin;
+    line-height: 2em;
+    letter-spacing: .05em;
+    text-align: justify;
+    margin: 50px 0;
+    padding: 0 30px;
+}
+
+#progress{
+    height: 70px;
+    width: 70px;
+    /* background-color: aqua; */
+    border-radius: 50%;
+    position: fixed;
+    bottom: 20px;
+    left: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .2);
+    display: grid;
+    place-items: center;
+
+}
+
+#progress-value{
+    display: block;
+    height: calc(100% - 15px);
+    width: calc(100% - 15px);
+    background-color: red;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-weight: 500;
+
+
+}
